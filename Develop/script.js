@@ -36,7 +36,14 @@ function writePassword() {
   var confirmNumberCharacter = confirm("Click OK if you wish to include number characters");
   var confirmCapitalCharacter = confirm("Click OK if you wish to include a capital character");
   var confirmLowerCharacter = confirm("Click OK if you wish to include a lowercase character");
-
+// outside of prarameters
+while(confirmCapitalCharacter === false && confirmLowerCharacter === false && confirmSpecialCharacter === false && confirmNumberCharacter === false) {
+  alert("Please select at least one parameter");
+var confirmSpecialCharacter = confirm("Click OK if you wish to include special characters");
+var confirmNumberCharacter = confirm("Click OK if you wish to include number characters");
+var confirmCapitalCharacter = confirm("Click OK if you wish to include a capital character");
+var confirmLowerCharacter = confirm("Click OK if you wish to include a lowercase character");
+}
 
 
 }
