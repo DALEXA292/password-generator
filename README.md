@@ -12,7 +12,7 @@ Users will click on the generate password button, then the site will give the us
 * JAVASCRIPT
 
 # Website
-
+https://dalexa292.github.io/password-generator/
 
 # Contribution
 Alexa De La Cruz 
